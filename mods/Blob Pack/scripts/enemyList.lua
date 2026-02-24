@@ -44,7 +44,7 @@ end
         table.insert(exclusiveElements, {id1, id2})
     end
 -- Exclusions
-	local NestedExc = {"Jelly_Spider","Starfish","DNT_Mantis"},
+	local NestedExc = {"Jelly_Spider","Starfish","DNT_Mantis"}
 	for i, list in pairs(NestedExc) do--enemies that might get in the way of the spawn on death,
 		makeExclusive("Meta_nestedgoo", list[i])-- or attack several tiles
 	end
