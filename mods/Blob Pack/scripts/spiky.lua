@@ -178,4 +178,3 @@ Meta_spikygoo2 = Pawn:new{
 }
 AddPawn("Meta_spikygoo2")
 
-easyEdit.enemyList:get("archive"):addEnemy("Meta_spikygoo","Unique")

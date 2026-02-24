@@ -322,4 +322,3 @@ Meta_shapeshifter2 = Pawn:new{
 }
 AddPawn("Meta_shapeshifter2")
 
-easyEdit.enemyList:get("archive"):addEnemy("Meta_shapeshifter","Unique")

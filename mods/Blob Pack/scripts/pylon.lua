@@ -209,4 +209,3 @@ function Meta_pylongoo2:GetDeathEffect(point)
 	return ret
 end
 
-easyEdit.enemyList:get("archive"):addEnemy("Meta_pylongoo","Unique")

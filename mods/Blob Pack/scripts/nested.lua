@@ -224,4 +224,3 @@ function Meta_nestedgoo2:GetDeathEffect(point)
 	return ret
 end
 
-easyEdit.enemyList:get("archive"):addEnemy("Meta_nestedgoo","Core")

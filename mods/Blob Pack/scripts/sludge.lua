@@ -181,4 +181,3 @@ Meta_sludgegoo2 = Pawn:new{
 }
 AddPawn("Meta_sludgegoo2")
 
-easyEdit.enemyList:get("archive"):addEnemy("Meta_sludgegoo","Core")

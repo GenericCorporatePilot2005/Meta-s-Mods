@@ -216,4 +216,3 @@ function Meta_splittinggoo2:GetWeapon(point)
 	if Game:GetTurnCount() ~= GetCurrentMission().TurnLimit - 1 then return 1 else return 2 end
 end
 
-easyEdit.enemyList:get("archive"):addEnemy("Meta_splittinggoo","Core")
