@@ -53,20 +53,20 @@ end
 		makeExclusive("Meta_sludgegoo", list[i])
 	end
 	local PylonExc = {"Jelly_Spider","Centipede","Jelly_Explode",
-                    "DNT_Thunderbug","lmn_Cactus"},--enemies that might endarger the pylon too much
+                    "DNT_Thunderbug","lmn_Cactus"}--enemies that might endarger the pylon too much
 	for i, list in pairs(PylonExc) do
 		makeExclusive("Meta_nestedgoo", list[i])
 	end
-	local ShapeshifterExc = {"Centipede","Starfish","lmn_Spitter","DNT_Mantis"}, 
+	local ShapeshifterExc = {"Centipede","Starfish","lmn_Spitter","DNT_Mantis"}
 	for i, list in pairs(ShapeshifterExc) do--the two forms shapeshifter can turn into
 		makeExclusive("Meta_shapeshifter", list[i])--plus two enemies that are exclusive to originals
 	end
 	local SplittingExc = {"Spider","Jelly_Spider","Shaman", "Blobber","lmn_Bud",
-                        "lmn_Floater","lmn_Blobberling","DNT_Anthill"},
+                        "lmn_Floater","lmn_Blobberling","DNT_Anthill"}
 	for i, list in pairs(SplittingExc) do--spawns stuff
 		makeExclusive("Meta_splittinggoo", list[i])
 	end
-	local SpikyExc = {"Moth","Crab","Scarab","DNT_Cockroach","DNT_Pillbug"},
+	local SpikyExc = {"Moth","Crab","Scarab","DNT_Cockroach","DNT_Pillbug"}
 	for i, list in pairs(SpikyExc) do--artilleries
 		makeExclusive("Meta_splittinggoo", list[i])
 	end
